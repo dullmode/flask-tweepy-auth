@@ -10,17 +10,21 @@ get personal access token and access token secret(consumer keys) using tweepy an
 * .env file
 
 ### Installation
+install modules
 ```bash
 pip install tweepy
 pip install Flask
 ```
+clone file
 ```bash
-git pull https://github.com/dullmode/flask-tweepy-auth.git
+git clone https://github.com/dullmode/flask-tweepy-auth.git
 ```
+set consumer keys to .env file
 ```bash
 echo -e API_KEY=xxxxxxxx\\n\
-    API_KEY_SECRET=xxxxxxxx > service/.env
+    API_KEY_SECRET=xxxxxxxx > flask-tweepy-auth/service/.env
 ```
+
  
 ### Usage
 ```bash
