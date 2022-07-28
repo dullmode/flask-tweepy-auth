@@ -15,7 +15,7 @@ pip install tweepy
 pip install Flask
 ```
 ```bash
-git pull 
+git pull https://github.com/dullmode/flask-tweepy-auth.git
 ```
 ```bash
 echo -e API_KEY=xxxxxxxx\\n\
